@@ -1,3 +1,15 @@
+
+  var config = {
+    apiKey: "AIzaSyATLZwbl2X0PyTIMAa8SX47klMTDWraZTo",
+    authDomain: "train-game-21174.firebaseapp.com",
+    databaseURL: "https://train-game-21174.firebaseio.com",
+    projectId: "train-game-21174",
+    storageBucket: "train-game-21174.appspot.com",
+    messagingSenderId: "714822021861"
+  };
+  firebase.initializeApp(config);
+
+
 var database = firebase.database();
 $("#add-train-btn").on("click", function (event) {
     event.preventDefault();
